@@ -7,6 +7,9 @@
 
 
 # Obsidian必备插件
+- [Obsidian - Sharpen your thinking](https://obsidian.md/)
+- [Plugins - Obsidian](https://obsidian.md/plugins)
+
 
 
 
@@ -35,7 +38,7 @@
 | 插件名称      | 描述                                                         | 项目地址                                                     |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | remotely-save | 第三方文件同步备份插件，与官方同步不同，可以使用用户自己的网盘同步备份文件。 | [remotely-save/remotely-save: Sync notes between local and cloud with smart conflict: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...), Dropbox, webdav (NextCloud/InfiniCLOUD/Synology/...), OneDrive, Google Drive (GDrive), Box, pCloud, Yandex Disk, Koofr, Azure Blob Storage.](https://github.com/remotely-save/remotely-save) |
-|               |                                                              |                                                              |
+| longform      | 长文写作插件，适合写作长篇小说，科研文档。                   | [kevboh/longform: A plugin for Obsidian that helps you write and edit novels, screenplays, and other long projects.](https://github.com/kevboh/longform?tab=readme-ov-file) |
 |               |                                                              |                                                              |
 |               |                                                              |                                                              |
 |               |                                                              |                                                              |
