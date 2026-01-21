@@ -2,7 +2,7 @@
 	"schemaVersion": "0.1.0",
 	"name": "X (Twitter) Post-1",
 	"behavior": "create",
-	"noteContentFormat": "\n![x.com]({{url}})\n\n{{content}}\n\n\n\n\n",
+	"noteContentFormat": "\n![x.com]({{url}})\n\n{{content}}\n\n## 评论\n```html\n{{selectorHtml:article[tabindex='0']|slice:0,50|join|markdown|trim}}\n```\n",
 	"properties": [
 		{
 			"name": "title",
@@ -31,7 +31,7 @@
 		},
 		{
 			"name": "description",
-			"value": "{{description}}",
+			"value": "{{selector:article[tabindex='-1'] div[data-testid='tweetText']|first|text|trim|replace:\"/\\s+/\":\" \"|replace:\"/^(.{200})(.+)$/\":\"$1……\"}}",
 			"type": "text"
 		},
 		{
