@@ -1,0 +1,48 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "X (Twitter) Post-1",
+	"behavior": "create",
+	"noteContentFormat": "\n![x.com]({{url}})\n\n{{content}}\n\n\n\n\n",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author|wikilink}}",
+			"type": "multitext"
+		},
+		{
+			"name": "published",
+			"value": "{{published}}",
+			"type": "date"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "description",
+			"value": "{{description}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "clippings/tweets",
+			"type": "multitext"
+		}
+	],
+	"triggers": [
+		"/^https:\\/\\/x\\.com\\/[A-Za-z0-9_]+\\/status\\/\\d+$/"
+	],
+	"noteNameFormat": "@{{url|split:\"/\"|slice:3,-2}} on {{published|date:\"YYYY-MM-DD_HH-mm-ss\"}}",
+	"path": "X_Collections/2026/01_ January"
+}
